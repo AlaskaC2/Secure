@@ -145,7 +145,7 @@ def lol():
 
 
 def menu():
-    sys.stdout.write(f"         \x1b]2;Secure DoS --> Living: [{bots}] | Online Users: [1] | API: [UNDER-CONSTRUCTION] | Bypasses [12]\x07")
+    sys.stdout.write(f"                    \x1b]2;Secure C2 --> Living: [{bots}] | Online Users: [1] | Bypasses [12]\x07")
     clear()
     print(f'''
 \x1b[38;2;93;63;211m
